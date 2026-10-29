@@ -1,6 +1,5 @@
-print('hello, soojeong')
+def hello(a,b):
+    return a + b
 
-def hello():
-    print('hello, soojeong')
-    
-hello()
+result=hello(1,2)
+print(result)
